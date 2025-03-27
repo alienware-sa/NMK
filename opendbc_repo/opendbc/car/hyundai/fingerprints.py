@@ -1225,7 +1225,8 @@ FW_VERSIONS = {
   CAR.KIA_K8_GL3: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00GL3 MFC  AT MES LHD 1.00 1.03 99211-L8000 210907',
-    ],
+      b'\xf1\x00GL3HMFC  AT KOR LHD 1.00 1.03 99211-L8000 210907',
+      b'\xf1\x00GL3HMFC  AT KOR LHD 1.00 1.04 99211-L8000 230207',
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00GL3_ RDR -----      1.00 1.02 99110-L8000         ',
     ],
@@ -1233,12 +1234,12 @@ FW_VERSIONS = {
  CAR.KIA_EV9: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00MV__ RDR -----      1.00 1.02 99110-DO700         ',
-      b'\xf1\x00MV__ RDR -----      1.00 1.02 99110-DO000         '
+      b'\xf1\x00MV__ RDR -----      1.00 1.02 99110-DO000         ',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00MV  MFC  AT KOR LHD 1.00 1.01 99211-DO000 230419',
       b'\xf1\x00MV  MFC  AT USA LHD 1.00 1.02 99211-DO000 230616',
-      b'\xf1\x00MV  MFC  AT EUR LHD 1.00 1.02 99211-DO000 230616'
+      b'\xf1\x00MV  MFC  AT EUR LHD 1.00 1.02 99211-DO000 230616',
     ],
   },
 }
